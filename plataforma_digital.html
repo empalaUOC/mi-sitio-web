@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio Digital y Cultural Compartido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Espacio Digital y Cultural Compartido</h1>
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galería de Historias</a></li>
+                <li><a href="#calendario">Calendario de Actividades</a></li>
+                <li><a href="#colaboracion">Colaboración Local</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Galería de Historias -->
+        <section id="galeria">
+            <h2>Galería de Historias y Recuerdos</h2>
+            <p>Explora historias y recuerdos compartidos por los residentes.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <h3>Gloria y Antonia</h3>
+                    <p>Gloria y Antonia destacan la importancia de la danza como una forma de expresión y unión comunitaria.</p>
+                    <button onclick="window.location.href='gloria_antonia.html'">Leer Más</button>
+                </div>
+                <div class="gallery-item">
+                    <h3>Gonzalo</h3>
+                    <p>Gonzalo comparte cómo encontró un hogar lejos de casa en la sala de billar del centro.</p>
+                    <button onclick="window.location.href='gonzalo.html'">Leer Más</button>
+                </div>
+                <div class="gallery-item">
+                    <h3>Miguel</h3>
+                    <p>Miguel reflexiona sobre cómo el ambiente de la sala de billar y la comunidad han enriquecido su vida.</p>
+                    <button onclick="window.location.href='miguel.html'">Leer Más</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="biblioteca.jpeg" alt="Biblioteca" style="width:20%; height:auto;">
+                    <h3>Biblioteca</h3>
+                    <p>Un espacio para la lectura y el conocimiento, donde los residentes pueden disfrutar de una gran variedad de libros.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="navidad.jpeg" alt="Decoración Navideña" style="width:20%; height:auto;">
+                    <h3>Decoración Navideña</h3>
+                    <p>La comunidad celebra la Navidad con un espíritu creativo, decorando el hogar con hermosos adornos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Calendario de Actividades -->
+        <section id="calendario">
+            <h2>Calendario de Actividades</h2>
+            <p>Consulta las actividades y eventos programados en el Hogar.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Actividad</th>
+                        <th>Descripción</th>
+                        <th>Inscripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>Gimnasia</td>
+                        <td>Clases de gimnasia para mantener la forma física.</td>
+                        <td><button>Inscribirse</button></td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>Pintura al óleo</td>
+                        <td>Aprende técnicas de pintura y libera tu creatividad.</td>
+                        <td><button>Inscribirse</button></td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Tertulias literarias</td>
+                        <td>Debates sobre libros clásicos y modernos.</td>
+                        <td><button>Inscribirse</button></td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>Baile</td>
+                        <td>Clases de baile para aprender y socializar.</td>
+                        <td><button>Inscribirse</button></td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>Manualidades</td>
+                        <td>Taller de manualidades para crear y compartir.</td>
+                        <td><button>Inscribirse</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección Colaboración Local -->
+        <section id="colaboracion">
+            <h2>Colaboración Local</h2>
+            <p>Únete como voluntario o comparte tus habilidades con nuestra comunidad.</p>
+            <div class="collaboration-form">
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Espacio Digital y Cultural Compartido. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
